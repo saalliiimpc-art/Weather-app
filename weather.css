@@ -1,0 +1,32 @@
+.container{
+    background-color: black;
+    border-radius: 10px;
+}
+#themeBtn{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100px;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    cursor: pointer;
+}
+.theme-toggle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    width: 100%;
+}
+
+.search-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(214, 187, 187);
+}
